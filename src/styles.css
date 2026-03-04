@@ -1,1 +1,58 @@
 @import "tailwindcss";
+
+.dialog-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.dialog {
+  background: #fdc700;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.player-primary{
+  background-color: #197BBD;
+}
+
+.player-secondary{
+  background-color: #0b4368;
+}
+
+.bot-primary{
+  background-color: #F21B3F;
+}
+
+.bot-secondary{
+  background-color: #700c1b;
+}
+
+.default{
+  background-color: #303030;
+}
+
+.game-bg {
+  min-height: 100vh;
+  transition: background-color 0.6s linear;
+}
+
+.player-won-bg{
+  background-color: #197BBD;
+}
+
+.bot-won-bg{
+  background-color: #F21B3F;
+}
+
+.default-bg{
+  background-color: black;
+}
